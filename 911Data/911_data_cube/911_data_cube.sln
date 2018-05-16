@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "911_data_cube", "911_data_cube\911_data_cube.dwproj", "{D8D50594-608E-43BB-A060-B1F23FF7F639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8D50594-608E-43BB-A060-B1F23FF7F639}.Development|Default.ActiveCfg = Development
+		{D8D50594-608E-43BB-A060-B1F23FF7F639}.Development|Default.Build.0 = Development
+		{D8D50594-608E-43BB-A060-B1F23FF7F639}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DCD7B85-0B6D-4F3F-A9EC-7B79AB0ECD21}
+	EndGlobalSection
+EndGlobal

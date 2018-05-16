@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b3881966-7340-49c7-8563-2654f445f53b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Master</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact 911 Data</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="120292f4-96f3-4bf3-ade1-cdf2490030b0">
+          <ID>Fact 911 Data</ID>
+          <Name>Fact 911 Data</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1dd810ae-f13d-4731-bfdc-63d48199acf0">
+            <DataSourceViewID>Master</DataSourceViewID>
+            <TableID>dbo_fact_911_data</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Weather Data</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="651d8e01-3477-460e-a5cf-6b6c6f43b8e9">
+          <ID>Dim Weather Data</ID>
+          <Name>Dim Weather Data</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bf4e1984-2fad-4d48-8a15-91c4b457c677">
+            <DataSourceViewID>Master</DataSourceViewID>
+            <TableID>dbo_dim_weather_data</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Tweet Data</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="276a22f9-dda9-43c0-a2e8-c8804ff23a69">
+          <ID>Dim Tweet Data</ID>
+          <Name>Dim Tweet Data</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fcc50344-d9c7-4115-866b-24e6a8183789">
+            <DataSourceViewID>Master</DataSourceViewID>
+            <TableID>dbo_dim_tweet_data</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Dept Data</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="36d14667-413a-498b-aa97-c8b4c10a5027">
+          <ID>Dim Dept Data</ID>
+          <Name>Dim Dept Data</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="84ce511b-9d48-4e88-83e6-e10b34c9d6ff">
+            <DataSourceViewID>Master</DataSourceViewID>
+            <TableID>dbo_dim_dept_data</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

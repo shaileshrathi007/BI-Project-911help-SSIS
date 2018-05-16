@@ -1,0 +1,668 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9ef5dede-8bc0-4634-a659-eaf46435c5a4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Master</ID>
+  <Name>Master</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-27" scrolltop="-1350" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="89" x="23654" y="11536" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_tweet_data" left="3061" top="625" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="4048" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000d00f00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_tweet_data" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="fact_911_data" left="8017" top="5470" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="3995" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00009b0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_fact_911_data" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_weather_data" left="20397" top="0" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3995" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00009b0f000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_weather_data" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_dept_data" left="14063" top="0" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3334" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000060d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_dept_data" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="11712" top="4301" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="2651" height="1769" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fact_911_data-dim_dept_data]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="26" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14063" y="4700" />
+              <point x="13038" y="4700" />
+              <point x="13038" y="5770" />
+              <point x="12012" y="5770" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="11712" top="160" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="8985" height="5910" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fact_911_data-dim_weather_data]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="20397" y="559" />
+              <point x="12412" y="559" />
+              <point x="12412" y="5770" />
+              <point x="12012" y="5770" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4136" top="4121" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="4528" height="1649" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[fact_911_data-dim_tweet_data]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4535" y="4620" />
+              <point x="4535" y="5020" />
+              <point x="8364" y="5020" />
+              <point x="8364" y="5470" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-27</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1350</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>3061</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>89</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="cf462461-d3eb-4f28-8145-0cd02737c3c4">
+      <ID>Fact 911 Data</ID>
+      <Name>Fact 911 Data</Name>
+      <DimensionID>Fact 911 Data</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6faae2ca-69ae-4614-9ef8-0451bdf5e3ce">
+          <AttributeID>Callcode</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b1641781-7af1-4a0b-8aec-705f9f707132">
+      <ID>Dim Weather Data</ID>
+      <Name>Dim Weather Data</Name>
+      <DimensionID>Dim Weather Data</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="72ef54e3-02c4-4ad2-8ff6-379464d8a2d5">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="74359439-a8e4-477a-8dfe-072da049b627">
+      <ID>Dim Tweet Data</ID>
+      <Name>Dim Tweet Data</Name>
+      <DimensionID>Dim Tweet Data</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="70321bbb-a6d6-4ee3-9efc-9e43f22b9247">
+          <AttributeID>Tweet Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="6444ed49-059f-41be-b22c-303daf45e144">
+      <ID>Dim Dept Data</ID>
+      <Name>Dim Dept Data</Name>
+      <DimensionID>Dim Dept Data</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="23eac75d-14ef-4271-8f3b-69ec0eec9a1b">
+          <AttributeID>Dept Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="51f3f915-33fa-45e5-a99e-35cf62fa9b94">
+      <ID>Fact 911 Data</ID>
+      <Name>Fact 911 Data</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="505fc509-2296-49ba-b8a3-525847f06707">
+          <ID>Dept Id</ID>
+          <Name>Dept Id</Name>
+          <Source dwd:design-time-name="49266164-db74-4fb0-a459-2fa7015727e6">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dbbb33d6-b10d-40c7-8a17-f1735c82be49">
+              <TableID>dbo_fact_911_data</TableID>
+              <ColumnID>dept_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0ddecd1d-48a0-4151-b7cd-7431df1852b8">
+          <ID>Weather Id</ID>
+          <Name>Weather Id</Name>
+          <Source dwd:design-time-name="6898268b-4c02-4c08-83e2-8839d1256988">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7e1d7db5-aaa3-45db-9c80-14c71314e1d8">
+              <TableID>dbo_fact_911_data</TableID>
+              <ColumnID>weather_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="34ff2542-ce47-44bc-bae3-a8e9ad972313">
+          <ID>Min Temperature</ID>
+          <Name>Min Temperature</Name>
+          <Source dwd:design-time-name="8402fa62-0282-48ea-aab9-14d1395841aa">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bab1608c-778c-432d-928c-ecb01865996a">
+              <TableID>dbo_fact_911_data</TableID>
+              <ColumnID>Min_x0020_temperature</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d965e322-7565-40df-8aa3-2cd8e65c2375">
+          <ID>Max Temperature</ID>
+          <Name>Max Temperature</Name>
+          <Source dwd:design-time-name="d3e9fc6b-f462-4a9a-b8c8-c8d742687a1b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="54a0fba9-2c32-45b1-b501-5a02efe71810">
+              <TableID>dbo_fact_911_data</TableID>
+              <ColumnID>Max_x0020_temperature</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="70e242b7-fc02-4e7a-867e-be4f56f09002">
+          <ID>Fact 911 Data Count</ID>
+          <Name>Fact 911 Data Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="30171d6e-02e7-4293-aaf3-5369a9607158">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="25adc77b-b634-46cd-92cb-03db5e1767fa">
+              <TableID>dbo_fact_911_data</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d325364a-04e5-429c-a365-90b115fc3903">
+          <CubeDimensionID>Fact 911 Data</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="51ba82cf-f59f-471f-86d7-c088d8e914d7">
+              <AttributeID>Callcode</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="21c94e14-e143-45de-b27d-45713f985b90">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="19a40595-f7c4-481a-94db-734a58dbdb7a">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>callcode</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="a00e3bb1-efa4-4337-a76f-fe64168a15fe">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="66ac82c7-ee50-4f3d-a0e7-7081e289cd45">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>calldescription</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f60461dc-38b7-4ec1-a235-41e80ad2190c">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2e7b6d9f-89c2-4fc6-9057-f39bd08fb5c7">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>category</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="ba6e4a55-f5f7-415c-9957-ccc0b2a4f31c">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c4acb8b9-8814-41f5-9c86-f85d5379fea0">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>calldate</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5034396d-0396-4048-b4f0-a826ea47960d">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="01422c7e-23b1-43f4-b8e3-c594cdf66b2c">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>calltime</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="332cfb47-d5df-4534-99e9-13c43d7fc092">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="72a181ba-b71d-4fda-b1e8-ea333d1b58ed">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>disposition</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="efb1e9e5-8706-431c-9d9a-c25f510d4152">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cbb20944-36fe-498b-8784-e2f4d7a0d31c">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>Precint</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="e3e1e423-7220-4bd3-8cb3-c0a643f3d029">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="89d44590-a097-4e5d-b556-1aeb30b158fb">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>Officerinitiated</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="a1fa9c91-c510-49db-bcb9-c3dbd758c29c">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1ea11dc8-5917-4d14-80f6-c2df7294285a">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>respondingunit</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="21bbd9e8-37c7-4418-9c7f-8410b1def628">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ef6c3175-c7c3-412f-a12d-e2f32cbc8e1c">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>Weather_condition</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="899e6984-1e64-46db-818f-16e807f276f6">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="013259b8-7386-409a-ad1d-44d49ce54ca1">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>department_New</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="82becbd7-6955-4629-a84e-e9f603852970">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7563b040-7458-4182-a304-93bad2d220ad">
+                    <TableID>dbo_fact_911_data</TableID>
+                    <ColumnID>sentiment</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="7826646d-a9d5-4ded-8346-a7ea7626b998">
+      <ID>Dim Weather Data</ID>
+      <Name>Dim Weather Data</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f231ee96-251f-46db-8be1-2e165520b7a4">
+          <ID>Weather Id - Dim Weather Data</ID>
+          <Name>Weather Id - Dim Weather Data</Name>
+          <Source dwd:design-time-name="a53fe8a9-5f8b-4f7c-ae25-bc8e1f259b2d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d3d72ecb-755d-4825-843b-e87a90bb2d6c">
+              <TableID>dbo_dim_weather_data</TableID>
+              <ColumnID>weather_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d5f3adb6-7e23-4ab2-a0f2-df785693f274">
+          <ID>Min Temperature - Dim Weather Data</ID>
+          <Name>Min Temperature - Dim Weather Data</Name>
+          <Source dwd:design-time-name="5dac1ce7-a3b5-4ff6-9454-9a6495192092">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f102cae7-2550-4ee4-aa08-cbf313de3106">
+              <TableID>dbo_dim_weather_data</TableID>
+              <ColumnID>Min_x0020_temperature</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cab25bb1-515d-48b9-a377-67797e0b0584">
+          <ID>Max Temperature - Dim Weather Data</ID>
+          <Name>Max Temperature - Dim Weather Data</Name>
+          <Source dwd:design-time-name="b2f3b10c-e966-47a0-a1ea-e3489819aded">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9ed0e2cc-ac18-4086-96f4-7f0835091998">
+              <TableID>dbo_dim_weather_data</TableID>
+              <ColumnID>Max_x0020_temperature</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="bdd5d929-b3bd-4f51-9346-0d51110afb81">
+          <ID>Dim Weather Data Count</ID>
+          <Name>Dim Weather Data Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="579e90e2-3e57-4877-b53e-7b8943a4325b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="258bdb4f-5280-4c24-995c-fe97eda4867f">
+              <TableID>dbo_dim_weather_data</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8aff7665-4139-45d0-be5b-434248a22114">
+          <CubeDimensionID>Dim Weather Data</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d1f3aea8-907d-4c8b-9116-9eaeaadbccd8">
+              <AttributeID>Day</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f36eaa71-fdf4-4dac-beb4-5e344660de3c">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="354f77f8-d892-4812-9aaf-b153121e335a">
+                    <TableID>dbo_dim_weather_data</TableID>
+                    <ColumnID>Day</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b669a8bc-c282-490f-8561-96cb3aaff81d">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a54f5f8a-99e4-4cd3-a782-e071d3bb2b3c">
+                    <TableID>dbo_dim_weather_data</TableID>
+                    <ColumnID>Summary</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="2d2bed34-3ac4-4dba-ae5b-295e6ebfaf9f">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="18ac6150-a75f-4757-97f8-9b51069ee80d">
+                    <TableID>dbo_dim_weather_data</TableID>
+                    <ColumnID>Data_x0020_Conversion.Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="2a49242a-1878-468d-8b10-19a57119b892">
+                  <DataType>WChar</DataType>
+                  <DataSize>255</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="de77bdab-8d99-4eb5-a26c-a38e1360fe3e">
+                    <TableID>dbo_dim_weather_data</TableID>
+                    <ColumnID>Weather_condition</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="1f8c770f-290d-42e8-8553-5874b41af45b">
+      <ID>Dim Tweet Data</ID>
+      <Name>Dim Tweet Data</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="723f8037-fe0f-450b-9bdc-f428f7ce44e2">
+          <ID>Tweet Id</ID>
+          <Name>Tweet Id</Name>
+          <Source dwd:design-time-name="2ee2fe27-6c76-43d4-a9b8-51043edb5b19">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="23effc63-e764-464b-babd-66cea5863c87">
+              <TableID>dbo_dim_tweet_data</TableID>
+              <ColumnID>tweet_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4cd66294-5d82-4932-bce9-f975170f0a20">
+          <ID>Dim Tweet Data Count</ID>
+          <Name>Dim Tweet Data Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0900c429-ba51-4a6d-ab8e-aed2c1046cd1">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="51ec8db8-a5af-4349-ab5d-0abfd333f5dd">
+              <TableID>dbo_dim_tweet_data</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5283cf24-9332-4aed-b729-33505ae117ea">
+          <CubeDimensionID>Dim Tweet Data</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="81d543b9-bc30-4ef5-a0c9-bf1faeb615f4">
+              <AttributeID>Tweet Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f05e3648-0ca0-4dab-b18a-54e6ff63863b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a20232d1-5f5f-4a42-bf97-0a07bd82ba33">
+                    <TableID>dbo_dim_tweet_data</TableID>
+                    <ColumnID>tweet_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="edfdb8f3-1615-4430-8781-8ca837f6da91">
+      <ID>Dim Dept Data</ID>
+      <Name>Dim Dept Data</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="31d88631-90c1-4a1e-be48-d9881744802a">
+          <ID>Dept Id - Dim Dept Data</ID>
+          <Name>Dept Id - Dim Dept Data</Name>
+          <Source dwd:design-time-name="ff3cfcbf-8219-4f93-bddd-e419aa9e065e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0a09d5f1-12b6-4a96-9db2-cc397a342d0f">
+              <TableID>dbo_dim_dept_data</TableID>
+              <ColumnID>dept_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="68ceae95-5517-4d6f-ae03-b12a11a39c8e">
+          <ID>Dim Dept Data Count</ID>
+          <Name>Dim Dept Data Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0540b0a2-6849-4044-8c05-8af5058c11fa">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="4b43b4ac-c799-4159-bed6-af41f51efe76">
+              <TableID>dbo_dim_dept_data</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="20b0d554-5aeb-405d-b7cf-5d8fa7a60498">
+          <CubeDimensionID>Dim Dept Data</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="feab0236-886a-4182-be5f-d04a17722254">
+              <AttributeID>Dept Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="eb3d9df1-415d-4412-9c37-aded767318f0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b3168075-ffb3-4d09-b42d-ef33d6bf1204">
+                    <TableID>dbo_dim_dept_data</TableID>
+                    <ColumnID>dept_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="933d13b8-746b-499a-897c-0af0c1da6f7e">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="097a90de-f41c-49ff-bb79-a9f3b4883667">
+                    <TableID>dbo_dim_dept_data</TableID>
+                    <ColumnID>agency</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="d8caa4dc-b650-4a0f-9392-c3875f7cf0ca">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e9f11b85-948b-443e-9cb6-3ea645a7e83b">
+                    <TableID>dbo_dim_dept_data</TableID>
+                    <ColumnID>precinctSCA</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3500780e-6168-4edf-bb46-3ed3adc767a7">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9aaff5cd-2116-4148-bcba-c3a0a335b1ce">
+                    <TableID>dbo_dim_dept_data</TableID>
+                    <ColumnID>respondingunit</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="61bf9626-5c33-4926-a23d-439ff6dd4567">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="10c055cf-5f24-4f37-95e3-56e28801f82e">
+                    <TableID>dbo_dim_dept_data</TableID>
+                    <ColumnID>officerinitiated</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="dcd19a30-8955-44ad-a7e1-3ae75cbaba6c">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8d6d7470-7c82-487b-b75c-c71e3ad976da">
+                    <TableID>dbo_dim_dept_data</TableID>
+                    <ColumnID>intaketime</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f01bbb45-3ca8-482f-bac3-eb09c8a2dadd">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1be6d741-6aae-46e0-a758-a7a431a1c896">
+                    <TableID>dbo_dim_dept_data</TableID>
+                    <ColumnID>dispatchtime</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5e6297eb-3521-464a-94e4-591cd6a45332">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="46618a47-2021-45b9-b287-53dfab6723b8">
+                    <TableID>dbo_dim_dept_data</TableID>
+                    <ColumnID>incident_address</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="36a4c662-a05d-414d-aef8-cc94afd66517">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7f1e01c8-e8bb-48ac-b345-0dd7d91a43c3">
+                    <TableID>dbo_dim_dept_data</TableID>
+                    <ColumnID>tweet_name</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="ff8c0126-caf0-4aa2-843d-668fa3d9984a">
+    <DataSourceViewID>Master</DataSourceViewID>
+  </Source>
+</Cube>
